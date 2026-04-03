@@ -1,0 +1,273 @@
+/* Reset Default Space */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* For Body */
+body {
+  background-color: rgb(243, 242, 242);
+}
+
+
+/* For All Buttons */
+button {
+  cursor: pointer;
+}
+
+
+/* Header Section */
+/* For Nav-Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #48afff;
+  height: 5rem;
+}
+
+
+/* For Left Side */
+.left-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+
+div.menu-bar > img {
+  padding-left: 5px;
+  width: 35px;
+  height: 20px;
+}
+
+
+div.logo > img {
+  width: 150px;
+  height: 50px;
+}
+
+
+/* For Middle Part */
+div.mid-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div.search-box {
+  position: relative;
+}
+
+
+input {
+  padding: 10px 400px 10px 10px;
+  border-radius: 7px;
+  border: none;
+  font-size: 15px;
+}
+
+
+.search-box img {
+  position: absolute;
+  top: 7px;
+  right: 13px;
+  height: 1.3rem;
+}
+
+
+
+/* For Right Side */
+div.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 10px;
+}
+
+
+/* Login button */
+.login {
+  padding: 10px 15px;
+  border-radius: 7px;
+  border: none;
+  background-color: #fff;
+  color: #48afff;
+}
+
+
+/* Register button */
+.register {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #48afff;
+  color: white;
+}
+
+
+/* Main Section */
+/* For Hero Section */
+div.hero-section {
+  background-image: url(https://static.priceoye.pk/images/categories/section-earbuds-bg-md.png);
+  margin-top: 2rem;
+  height: 16rem;
+  /* background: linear-gradient(90deg, #48afff 0%, #2c8ed6 100%);
+  margin-top: 2rem;
+  height: 16rem;
+  border-radius: 8px; */
+}
+
+
+div.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7em;
+  width: 80vw;
+  margin: 0px auto;
+  color: #fff;
+}
+
+
+/* View button */
+div.banner button {
+  color: #000;
+  background-color: #eee7e7;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+/* Shop Section */
+div.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  color: #000;
+  width: 80vw;
+  row-gap: 18px;
+  margin: 0px auto;
+}
+
+/* Package Section 1 */
+div.pack-section1,
+div.pack-section2,
+div.pack-section3,
+div.pack-section4,
+div.pack-section5 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  column-gap: 18px;
+}
+
+
+/* Box1 */
+div.box {
+  background-color: #fff;
+  padding: 1rem;
+  width: 19vw;
+  border-radius: 3px;
+  font-size: 0.75rem;
+}
+
+
+
+div.box img {
+  display: block;
+  width: 7em;
+  height: 7em;
+  margin: 0px auto;
+  padding: 1rem 0;
+}
+
+/* Rate Box */
+div.rate {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+/* Difference Rate */
+div.diff-rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.7rem;
+  color: #c2c1c1;
+}
+
+
+/* Past Rate */
+div.past-rate {
+  text-decoration: line-through;
+  text-decoration-color: #ff0000;
+}
+
+
+/* Discount Rate */
+div.discount-rate {
+  color: #0bb07e;
+  background-color: #f0faf7;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+/* Buy Button */
+button.buy-btn {
+  display: block;
+  width: 100%;
+  height: 2.1rem;
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #48afff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+
+/* Buy Button when hover */
+.buy-btn:hover {
+  background-color: #2c8ed6;
+}
+
+/* Footer Section */
+div.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3eabff;
+  height: 4.5rem;
+  margin-top: 10px;
+  color: #fff;
+}
+
+
+/* For Footer Image */
+div.footer-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Footer Images */
+div.footer-image img {
+  display: block;
+  margin-left: 10px;
+}
+
+
+
+/* For Timer Graph */
+.timer {
+  font-size: 12px;
+  color: red;
+  margin-top: 5px;
+  text-align: center;
+}
