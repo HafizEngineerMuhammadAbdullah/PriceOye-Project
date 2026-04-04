@@ -12,7 +12,6 @@ products.forEach(product => {
 
     stockText.textContent = `Only ${stock} left!`;
     stockText.style.textAlign = "center";
-    stockText.style.marginTop = "10px";
 
     product.appendChild(stockText);
 

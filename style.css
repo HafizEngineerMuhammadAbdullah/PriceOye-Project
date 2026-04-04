@@ -256,11 +256,24 @@ div.footer-image img {
   display: block;
   margin-left: 10px;
 }
+/* For Clock */
+div.clock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-/* For Timer Graph */
+div.clock > img{
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+ margin: 1px 10px 0px -4px; 
+}
+
+/* For Timer  */
 .timer {
   font-size: 12px;
   color: red;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   text-align: center;
 }
