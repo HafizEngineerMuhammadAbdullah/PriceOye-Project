@@ -65,11 +65,6 @@ products.forEach(product => {
     });
 
 });
-console.log("hello");
-setTimeout(()=>{
-    console.log("i will run");
-    
-});
-console.log("world");
+
 
 
